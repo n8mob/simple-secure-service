@@ -8,13 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-configuration-processor/3.5.7/spring-boot-configuration-processor-3.5.7.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-configuration-processor/3.5.7/spring-boot-configuration-processor-3.5.7.jar" />
         </processorPath>
+        <module name="simple-secure-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="simple-secure-client" target="21" />
-      <module name="simple-secure-service" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
