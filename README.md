@@ -43,3 +43,8 @@ And then you can build the trust store for the client with:
 
 ## setting trust store on client side
 In [SimpleSecureClient.java](src/main/java/com/nategrigg/demo/simplesecure/client/SimpleSecureClient.java), rather than messing with application.properties (or .yaml in this case), I set the trust store with -Djavax.net.ssl.trustStore=/path/to/truststore.p12
+
+### IntelliJ Run Configurations
+I added two run configurations in IntelliJ for easy testing:
+- SimpleSecureService - runs the service
+- SimpleSecureClient - runs the client against the service

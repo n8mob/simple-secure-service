@@ -8,7 +8,7 @@
     <version>3.5.7</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
-  <groupId>com.modelop.n8</groupId>
+  <groupId>com.nategrigg.demo</groupId>
   <artifactId>simple-secure-service</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>simple-secure-service</name>
