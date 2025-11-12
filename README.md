@@ -40,3 +40,6 @@ And then you can build the trust store for the client with:
 - intermediate only
 - root + intermediate
 - etc.
+
+## setting trust store on client side
+In [SimpleSecureClient.java](src/main/java/com/nategrigg/demo/simplesecure/client/SimpleSecureClient.java), rather than messing with application.properties (or .yaml in this case), I set the trust store with -Djavax.net.ssl.trustStore=/path/to/truststore.p12
